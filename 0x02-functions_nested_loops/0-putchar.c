@@ -1,22 +1,21 @@
-#include "holberton.h"
-
+#include "main.h"
 /**
-  * main - Entry point
-  *
-  * Return: Always 0
-  */
+ * main - print _putchar
+ * is written by mbah
+ * Return: 0
+ */
+
 int main(void)
 {
-	_putchar('G');
-	_putchar('O');
-	_putchar('D');
-	_putchar('S');
-	_putchar('P');
-	_putchar('O');
-	_putchar('W');
-	_putchar('E');
-	_putchar('R');
-	_putchar('\n');
-
-	return (0);
+_putchar('_');
+_putchar('p');
+_putchar('u');
+_putchar('t');
+_putchar('c');
+_putchar('h');
+_putchar('a');
+_putchar('r');
+_putchar('\n');
+return (0);
 }
+
