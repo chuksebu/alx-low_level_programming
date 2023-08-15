@@ -1,16 +1,11 @@
-#include "main.h"
+// main.h
+enum example_enum {
+    VALUE_ONE,
+    VALUE_TWO
+}; // Don't forget the semicolon here
 
-/**
- * print_alphabet - print all alphabet in lowercase
- */
-
-void print_alphabet(void)
-{
-	char letter;
-
-	for (letter = 'a'; letter <= 'z'; letter++)
-		_putchar(letter);
-
-	_putchar('\n');
-}
+struct example_struct {
+    int x;
+    int y;
+}; // Don't forget the semicolon here
 
