@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main_0.c"
 /**
  * print_last_digit - print the last digit of a number
  * @n: int type number
