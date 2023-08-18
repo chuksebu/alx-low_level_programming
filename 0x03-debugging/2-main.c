@@ -15,9 +15,9 @@ int main(void)
         b = -98;
         c = 0;
 
-        largest = largest_number(a, b, c);
+	int largest = largest_number(a, b, c);
 
-        printf("%d is the largest number\n", largest);
+	 printf("The largest number among %d, %d, and %d is: %d\n", a, b, c, largest);
 
         return (0);
 }
